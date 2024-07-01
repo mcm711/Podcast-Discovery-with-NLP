@@ -41,11 +41,11 @@ def full_text(my_dict):
     
 text = full_text(res)
 
-#Change "Podcast1" to match the name of the podcast episode
+#Change "Podcast" to match the name of the podcast episode
 #Do this for each podcast you conver to text
 write_pickle(the_data_out, "Podcast.pkl", res)
 
-#Change "Podcast1" to match the name of the podcast episode
+#Change "Podcast" to match the name of the podcast episode
 #Do this for each podcast you convert to text
 with open('Podcast.txt', 'w') as out:
     out.writelines(text)
